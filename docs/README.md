@@ -1,5 +1,5 @@
-<a name="ultitools"></a>
-# UltiTools 🛠️
+<a name="ultitools 0.4.1"></a>
+# UltiTools(0.4.1) 🛠️
 
 UltiTools is a powerful Blender add-on that enhances Blender's capabilities by providing various tools for modeling and asset creation. With UltiTools, you can expand Blender's functionality and improve your workflow. This documentation provides an overview of UltiTools and its features.
 
@@ -36,7 +36,6 @@ Here are some basic instructions for using the add-on:
 5. Interact with the objects or elements in your scene to apply UltiTools' functionality 
 
 
-![Ribbon view](./Tool.png)
 
 <a name="features"></a>
 ## Features ✨
@@ -65,18 +64,50 @@ Save and load Sculpt masks using Vertex Groups, allowing for the application of 
 [![Video showcase](https://img.youtube.com/vi/A67Yu_MkNuQ/0.jpg)](https://www.youtube.com/watch?v=A67Yu_MkNuQ&ab_channel=Ultikynnys)
 
 ### Text Animation 📝🎬
-
 Bring your Text Objects to life using keyframes and Python scripting.
+Using python syntax you can define how the text objects behave. Here are some examples.
+```
+hardcoded variables.
+loc(object name) = location[3]
+rot(object name) = angle[3]
+scale(object name) = scale[3]
+\n # newline
+'' # Single quotes are used for string variables
+"" # double quotes are used for text
+```
+Here is an advanced example from the included blend file. It may look complicated when the text script is in one line.
+![Ribbon view](./Text.png)
+With tabs it is much easier to understand how the text object will behave.
+In this case it will inherit the properties of the object called "Location Test", which is the name of the text object in the screenshot.
+```
+"Location\nX :" # static string
+round(loc('Location Test')[0]) # x axis of object rounded to first digit
+
+"\nY : " # static string
+round(loc('Location Test')[1]) # y axis of object rounded to first digit
+
+"\nZ : " # static string
+round(loc('Location Test')[2]) # z axis of object rounded to first digit
+```
 
 [![Video showcase](https://img.youtube.com/vi/aNaJQEXH1FQ/0.jpg)](https://www.youtube.com/watch?v=aNaJQEXH1FQ&ab_channel=Ultikynnys)
 
 ### Sprite Sheet Gen 🎞️
 Generate sprite sheets directly within Blender.
 
+The tool generates a single image from an input folder filled with images.
+
+It is ideal to set the render output folder as the Sprite Sheet input folder.
+This way you can quickly turn your renders into sprites. Very useful when creating sprite sheets from blender simulations.
+
+You can use the included example blend file to test this.
+
 [![Video showcase](https://img.youtube.com/vi/BGtd6JSe1Ts/0.jpg)](https://www.youtube.com/watch?v=BGtd6JSe1Ts&ab_channel=Ultikynnys)
 
 ### Multi Camera Render 🎥🎥🎥
 Render multiple cameras using unique frame ranges and output paths for each camera.
+
+This tool works very well with **Sprite Sheet Gen 🎞️**
 
 [![Video showcase](https://img.youtube.com/vi/SC3yCdjqBHI/0.jpg)](https://www.youtube.com/watch?v=SC3yCdjqBHI&ab_channel=Ultikynnys)
 
@@ -86,6 +117,10 @@ Includes a showcase of how Text Animation works. Same file as used in the video 
 <a name="faq"></a>
 ## FAQ ❓
 Here are some frequently asked questions about UltiTools
+
+**Q:** I found a problem with the addon, what do I do?
+
+**A:** Contact the author in [Contacts](#Conclusion-🎉) 
 
 **Q:** How can I update UltiTools to a newer version? 
 
@@ -114,10 +149,12 @@ Thank you for choosing UltiTools as your go-to Blender add-on. We hope that this
 
 ## Changelog 📋
 
+### Version 0.4.1
+- Hotfixed issues with smart symmetrize not doing anything.
+
+
 ### Version 0.4.0
 - UI elements are now separated for each tool.
 - Text animation overhauled 
 - Improved performance and optimized resource usage. 
 - Updated dependencies to the latest versions. 
-
-🚀 Happy Blendering with UltiTools! 🎨🖌️
