@@ -6,6 +6,7 @@ UltiTools is a powerful Blender add-on that enhances Blender's capabilities by p
 [![Video showcase](https://img.youtube.com/vi/I8yvBzNMHaM/0.jpg)](https://www.youtube.com/watch?v=I8yvBzNMHaM&ab_channel=Ultikynnys)
 
 <a name="installation"></a>
+
 ## Installation 🚀
 
 To install UltiTools, follow the steps below:
@@ -88,7 +89,7 @@ Here are some frequently asked questions about UltiTools:
 **Q:** How can I update UltiTools to a newer version? 
 
 **A:** To update the add-on, download the latest version from the official website and follow the installation steps mentioned in the
-[Installation](##installation) section. 
+[Installation](#Installation-🚀) section. 
 
 <a name="license"></a>
 ## License 
