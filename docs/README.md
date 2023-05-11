@@ -87,7 +87,8 @@ Here are some frequently asked questions about UltiTools:
 
 **Q:** How can I update UltiTools to a newer version? 
 
-**A:** To update the add-on, download the latest version from the official website and follow the installation steps mentioned in the [Installation](#installation) section. 
+**A:** To update the add-on, download the latest version from the official website and follow the installation steps mentioned in the
+[Installation](##installation) section. 
 
 <a name="license"></a>
 ## License 
