@@ -83,8 +83,7 @@ Includes a showcase of how Text Animation works. Same file as used in the video 
 
 <a name="faq"></a>
 ## FAQ ❓
-
-Here are some frequently asked questions about UltiTools:
+Here are some frequently asked questions about UltiTools
 
 **Q:** How can I update UltiTools to a newer version? 
 
