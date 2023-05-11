@@ -44,7 +44,9 @@ Here are some basic instructions for using the add-on:
 UltiTools offers the following key features:
 
 ### Ulti Sage 🧙
-Ulti Sage is the first tab you will see when you open UltiTools. It will show you relevant information according to what is selected and depending on what exists in the scene. 
+
+
+Ulti Sage is the first tab you will see when you open UltiTools. It will show you relevant information according to what is selected and depending on what exists in the scene. <br>
 ![Ribbon view](./Sage.png)
 
 ### Smart Symmetrize 🔄
@@ -62,8 +64,8 @@ Save and load Sculpt masks using Vertex Groups, allowing for the application of 
 
 [![Video showcase](https://img.youtube.com/vi/A67Yu_MkNuQ/0.jpg)](https://www.youtube.com/watch?v=A67Yu_MkNuQ&ab_channel=Ultikynnys)
 
-### Text Animation
-📝🎬
+### Text Animation 📝🎬
+
 Bring your Text Objects to life using keyframes and Python scripting.
 
 [![Video showcase](https://img.youtube.com/vi/aNaJQEXH1FQ/0.jpg)](https://www.youtube.com/watch?v=aNaJQEXH1FQ&ab_channel=Ultikynnys)
