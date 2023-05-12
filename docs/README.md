@@ -1,5 +1,5 @@
-<a name="ultitools 0.4.1"></a>
-# UltiTools(0.4.1) 🛠️
+<a name="ultitools"></a>
+# UltiTools 🛠️
 
 UltiTools is a powerful Blender add-on that enhances Blender's capabilities by providing various tools for modeling and asset creation. With UltiTools, you can expand Blender's functionality and improve your workflow. This documentation provides an overview of UltiTools and its features.
 
@@ -66,7 +66,7 @@ Save and load Sculpt masks using Vertex Groups, allowing for the application of 
 ### Text Animation 📝🎬
 Bring your Text Objects to life using keyframes and Python scripting.
 Using python syntax you can define how the text objects behave. Here are some examples.
-```
+```python
 hardcoded variables.
 loc(object name) = location[3]
 rot(object name) = angle[3]
@@ -79,7 +79,7 @@ Here is an advanced example from the included blend file. It may look complicate
 ![Ribbon view](./Text.png)
 With tabs it is much easier to understand how the text object will behave.
 In this case it will inherit the properties of the object called "Location Test", which is the name of the text object in the screenshot.
-```
+```python
 "Location\nX :" # static string
 round(loc('Location Test')[0]) # x axis of object rounded to first digit
 
@@ -114,7 +114,7 @@ This tool works very well with **Sprite Sheet Gen 🎞️**
 ### Bonus Blend file 🎁
 Includes a showcase of how Text Animation works. Same file as used in the video showcase.
 
-<a name="faq"></a>
+
 ## FAQ ❓
 Here are some frequently asked questions about UltiTools
 
@@ -127,7 +127,7 @@ Here are some frequently asked questions about UltiTools
 **A:** To update the add-on, download the latest version from the official website and follow the installation steps mentioned in the
 [Installation](#Installation-🚀) section. 
 
-<a name="license"></a>
+
 ## License 
 
 UltiTools is licensed under the **Single User License**. This license grants you the following rights:
