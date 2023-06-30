@@ -149,6 +149,17 @@ Thank you for choosing UltiTools as your go-to Blender add-on. We hope that this
 
 ## Changelog 📋
 
+### Version 0.4.3
+- MultiCameraRender data now saved to camera data instead object to support object data linking.
+- Ability to reverse Image order in SpriteSheetGenerate
+- Added an button in [Object Mode] in the Select ribbon, which makes all objects selectable.
+- Smart symmetrize edge clean up is more reliable.
+
+
+### Version 0.4.2
+- More hotfixes for 3.5 Blender support
+
+
 ### Version 0.4.1
 - Hotfixed issues with smart symmetrize not doing anything.
 
@@ -158,3 +169,5 @@ Thank you for choosing UltiTools as your go-to Blender add-on. We hope that this
 - Text animation overhauled 
 - Improved performance and optimized resource usage. 
 - Updated dependencies to the latest versions. 
+
+
